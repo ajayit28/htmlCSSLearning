@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  
+  form.my-form {
+    padding: 20px;
+  }
+
+  form.my-form .form-group {
+    padding-bottom: 15px;
+  }
+
+  form.my-form label {
+    display: block;
+  }
+
+  form.my-form input[type="text"], textarea {
+      padding: 10px;
+      width: 100%;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: gray;
+    border: 0px;
+    color: white;
+  }
+
+  .container {
+    padding: 20px
+  }
+
+  .block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #main-block {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 15px;
+    
+  }
+
+  #sidebar {
+    float: right;
+    width: 30%;
+    background-color: gray;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    
+  }
+
+  .clr {
+    clear: both;
+  }
+
+  .p-box {
+    width: 800px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+    background-image: url("./108129-light-blue-wave.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .p-box h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .p-box h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .a-fix {
+    position: fixed;
+    top: 200px;
+    
+    margin: 0px;
+  }
+
+  .my-list li:nth-child(1) {
+    background: red;
+  }
+  .my-list li:nth-child(even) {
+    background: gray;
+  }
+
+  </style>
+</head>
+<body>
+  <form action="" class="my-form">
+    <div class="form-group">
+      <label> Name: </label>
+      <input type="text" name="" id="" />
+    </div>
+
+    <div class="form-group">
+        <label> Email: </label>
+        <input type="text" name="" id="" />
+      </div>
+
+      <div class="form-group">
+          <label> Message: </label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        
+            <input class="button" type="submit" value="Submit" name="" id=""" />
+           
+          
+        
+  </form>
+
+  <div class="container">
+      <div class="block">
+          <h3>Heading</h3>
+            <p>
+                The DASS will always make HTTP/HTTPS request using a properly
+                formatted HTTP/1.1 request header with all HTTP header fields
+                correctly set. This includes the common types such as “Content-Type”
+                and “Content-Length”, etc. E.g.:
+              </p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>
+                The DASS will always make HTTP/HTTPS request using a properly
+                formatted HTTP/1.1 request header with all HTTP header fields
+                correctly set. This includes the common types such as “Content-Type”
+                and “Content-Length”, etc. E.g.:
+              </p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>
+                The DASS will always make HTTP/HTTPS request using a properly
+                formatted HTTP/1.1 request header with all HTTP header fields
+                correctly set. This includes the common types such as “Content-Type”
+                and “Content-Length”, etc. E.g.:
+              </p>
+        </div>
+        <div class="clr"></div>
+
+        <div id="main-block">
+            <h3>Heading</h3>
+            <p>
+                The DASS will always make HTTP/HTTPS request using a properly
+                formatted HTTP/1.1 request header with all HTTP header fields
+                correctly set. This includes the common types such as “Content-Type”
+                and “Content-Length”, etc. E.g.:
+              </p>
+        </div>
+
+        <div id="sidebar">
+          
+            <p>
+                The DASS will always make HTTP/HTTPS request using a properly
+                formatted HTTP/1.1 request header with all HTTP header fields
+                correctly set. This includes the common types such as “Content-Type”
+                and “Content-Length”, etc. E.g.:
+              </p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="p-box">
+          <h1>Hello</h1>
+          <h2>Good Bye</h2>
+
+        </div>
+
+        <ul class="my-list">
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+          <li>list</li>
+        </ul>
+
+        
+
+        <div style="margin-top: 100px"></div>
+
+
+
+    </div>
+    <a class="button a-fix" href="">OK</a>  
+</body>
+</html>
